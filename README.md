@@ -1,3 +1,2 @@
-# 这是leetcode 每日一题的仓库
+# 这是leetcode 记录刷题的库
 
-+ day 2021 7 14 problem 66
