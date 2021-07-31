@@ -28,6 +28,5 @@ class Solution:
                         dp[i][j] += dp[i][j - 1]
         # 如果目的地上面有障碍物 那么就是0
         return 0 if dp[m - 1][n - 1]  == -1 else dp[m - 1][n - 1]
-
 # @lc code=end
 

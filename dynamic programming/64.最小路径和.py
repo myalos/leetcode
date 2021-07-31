@@ -25,10 +25,5 @@ class Solution:
                     dp[i][j] = min(dp[i][j], dp[i][j - 1])
                 dp[i][j] += grid[i][j]
         return dp[m - 1][n - 1]
-
-
-
-        
-
 # @lc code=end
 
