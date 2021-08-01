@@ -21,6 +21,7 @@ class Solution:
         for i in range(1, sz + 1):
             for j in range(1, sz + 1):
                 dp[i][j][1] = True if s1[i - 1] == s2[j - 1] else False
+        # dp[i][j][k] 表示字符串s1的第i个字符开始的k个字符 和 字符串s2的第j个字符开始的k个字符是否为扰乱字符串
         # 长度从2开始
         for l in range(2, sz + 1):
             for i in range(1, sz + 1):
